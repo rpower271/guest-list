@@ -11,7 +11,7 @@ const GuestDetails = ({ guestInfo, setSelectedGuest }) => {
         <p>Job: {guestInfo.job}</p>
       </div>
 
-      <button onClick={() => setSelectedGuest(null)}>Back</button>
+      <button onClick={() => setSelectedGuest()}>Back</button>
     </div>
   );
 };

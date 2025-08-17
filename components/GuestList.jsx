@@ -1,7 +1,7 @@
 import { useEffect, useState } from "react";
 import Guest from "./Guest.jsx";
 
-const GuestList = (setSelectedGuest) => {
+const GuestList = ({setSelectedGuest}) => {
   const [loading, setLoading] = useState(false);
   const [guests, setGuests] = useState([]);
 //   const [selectedGuest, setSelectedGuest] = useState(null);
